@@ -4,6 +4,10 @@
     font-family: 微軟正黑體;
     box-sizing: border-box;
 }
+body{background-color: #eee;
+    height: 4000px;
+
+}
 #banner{
     background-image: url(./img/andy\ rich\ class\ .jpg);
     background-size: cover;
@@ -46,6 +50,131 @@
     font-size:80px;
 }
 #news{
-    height:500px;
-    background:#ccc;
+    height:1200px;
+    margin: 0 auto;
+    height:100vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:50px;
+    padding:100px 0;
+    text-align:center;
+}
+
+
+#news>div{
+background:#fff;    
+}
+#news h3{
+ color:#aaa;
+ padding:20px;
+ font-weight: 100;
+text-transform: uppercase;
+letter-spacing: 5px;   
+}
+#new hr {
+    width:300px;
+    margin: 0 auto; 
+}
+
+#news h1{
+    font-size:32px;
+    font-weight: 100;
+    padding: 20px;
+}
+
+#news p{
+    padding: 30px;
+    text-align:left;
+    line-height: 1.5;
+    color:#aaa;
+    height: 150px;
+}
+
+#news #news-left{
+    background-image: url(./img/newsleft.jpg);
+    height:350px;
+
+
+}
+
+#news #news-right{
+    background-image: url(./img/newsright.jpg);
+    height:350px;
+}
+a.button{
+    text-decoration: none;
+    color:#aaa;
+    border:1px solid #aaa;
+    padding: 15px 80px;
+    transition:0.5s;
+}
+a.button:hover{
+color:white;
+background:#aaa;
+}
+
+#box{
+    background-image: url(./img/box.jpg);
+    background-attachment: fixed;
+}
+
+
+#box h2{
+    text-align:center;
+    color:white;
+    font-size: 32px;
+    padding: 100px 0;
+    backdrop-filter: blur(5px) opacity(70%);
+    letter-spacing: 10px;
+    padding-left: 10px;
+    font-weight: 100;
+}
+content{
+    width: 1200px;
+    margin: 0 auto;
+}
+#content h1{
+    text-align: center;
+    font-weight: 100;
+    color:#333;
+    padding: 30px;
+    letter-spacing: 20px;
+    padding-left: 20px;
+}
+#content div{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+#content a{
+    height: 350px;
+    line-height:350px;
+    text-decoration: none;
+    color:white;
+    font-size: 32px;
+    text-align: center;
+}
+
+#content a span{
+    display:block;
+    backdrop-filter:blur(5px) opacity(90%);
+    transition: 0.5s;
+}
+
+#content a span:hover{
+    backdrop-filter: blur(5px) opacity(20%);
+}
+#content #about{
+    background-image: url(./img/about.jpg);
+
+}
+#content #contact{
+    background-image: url(./img/content.jpg);
+}
+/* 地圖 */
+
+#map{
+    width:100%;
+    height: 350px;
+    margin-top: 150px;
 }
