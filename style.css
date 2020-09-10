@@ -6,7 +6,7 @@
 }
 
 body{background-color: #eee;
-    height: 4000px;
+    height: 3000px;
 }
 
 #banner{
@@ -21,14 +21,14 @@ body{background-color: #eee;
 #banner nav{
     padding:30px;
 }
-#banner a{
+#banner a,#banner-about a{
     text-decoration:none;
     color:white;
     font-size: 24px;
     padding: 0 30px;
     transition:0.3s;
 }
-#banner a:hover{
+#banner a:hover,#banner-about a:hover{
     color: #aaa;
 }
 #banner p{
@@ -90,7 +90,6 @@ letter-spacing: 5px;
     text-align:left;
     line-height: 1.5;
     color:#aaa;
-    height: 150px;
 }
 
 #news #news-left{
@@ -187,3 +186,129 @@ background:#aaa;
     height: 350px;
     margin-top: 150px;
 }
+
+footer {
+    background: #252525;
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+}
+
+footer #icon a {
+    padding: 2px;
+    /* 濾鏡 */
+    filter: opacity(100%);
+    transition: 0.5s;
+}
+
+footer #icon a:hover {
+    filter: opacity(10%);
+}
+
+footer h2 {
+    font-weight: 100;
+    letter-spacing: 10px;
+    padding-left: 10px;
+    padding: 50px 0 40px;
+    font-size: 30px;
+}
+
+footer p {
+    padding: 20px;
+    font-size: 10px;
+    color: #aaa;
+    letter-spacing: 3px;
+    padding-left: 3px;
+}
+
+footer h2 a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+footer h2 a:hover {
+    text-decoration: none;
+    color: #888;
+}
+
+
+
+/* 關於我分頁 */
+#banner-about{
+    background-image: url(./img/about5.jpg);
+    background-size: cover;
+    width: 100%;
+    /* vh螢幕高度 */
+    height: 50vh;
+    color:white;
+    background-attachment: fixed;
+    /* backdrop-filter:opacity(40%); */
+}
+
+#banner-about nav{
+    backdrop-filter:opacity(40%);
+}
+
+#banner-about h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    padding-left: 20px;
+    line-height: 40vh;
+    backdrop-filter:opacity(40%);
+    height: 46.5vh;
+
+}
+
+#about-content{
+    width: 1000px;
+    margin:0 auto ;
+    background-color:white;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+#about-content h1{
+    text-align: center;
+    padding: 30px;
+    font-size: 36px;
+    
+}
+#about-content h3{
+    text-align: center;
+    padding: 30px;
+    color:#aaa;
+}
+
+#about-content hr{
+    width: 600px;
+    margin:0 auto ;
+}
+
+#about-content p{
+    padding: 30px;
+    text-align:left;
+    color:#aaa;
+    line-height: 2;
+}
+
+#content-about1{
+    background-image:url(./img/1111.jpg);
+    height: 400px;
+    background-size: cover;
+
+}
+#content-about2{
+    background-image:url(./img/about3.jpg);
+    height: 500px;
+    background-size: cover;
+
+}
+#content-about3{
+    background-image:url(./img/yyyy.jpg);
+    height: 500px;
+    background-size: cover;
+}
+
