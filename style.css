@@ -21,14 +21,14 @@ body{background-color: #eee;
 #banner nav{
     padding:30px;
 }
-#banner a,#banner-about a{
+#banner a,#banner-about a,#banner-contact a{
     text-decoration:none;
     color:white;
     font-size: 24px;
     padding: 0 30px;
     transition:0.3s;
 }
-#banner a:hover,#banner-about a:hover{
+#banner a:hover,#banner-about a:hover,#banner-contact a:hover{
     color: #aaa;
 }
 #banner p{
@@ -243,7 +243,6 @@ footer h2 a:hover {
     height: 50vh;
     color:white;
     background-attachment: fixed;
-    /* backdrop-filter:opacity(40%); */
 }
 
 #banner-about nav{
@@ -312,3 +311,29 @@ footer h2 a:hover {
     background-size: cover;
 }
 
+/* 連絡我分頁 */
+
+#banner-contact{
+    background-image: url(./img/contact.jpg);
+    background-size: cover;
+    width: 100%;
+    /* vh螢幕高度 */
+    height: 50vh;
+    color:white;
+    background-attachment: fixed;
+}
+
+#banner-contact nav{
+    backdrop-filter:opacity(40%);
+}
+
+#banner-contact h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    padding-left: 20px;
+    line-height: 40vh;
+    backdrop-filter:opacity(40%);
+    height: 46.7vh;
+}
